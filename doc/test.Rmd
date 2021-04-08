@@ -1,0 +1,23 @@
+---
+title: "Test Vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Test Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# pkgdownReprex
+
+An external image:
+
+```{r, echo=FALSE}
+knitr::include_graphics("image.png")
+```
